@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import App from './App'
+import App from './components/App'
 import blogData from './blog'
 
 // Test blog name
