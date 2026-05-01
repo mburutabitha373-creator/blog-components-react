@@ -1,5 +1,3 @@
-import React from "react";
-
 function About({ image, about }) {
   return (
     <aside>
@@ -8,5 +6,9 @@ function About({ image, about }) {
     </aside>
   );
 }
+
+About.defaultProps = {
+  image: "default-logo.png",
+};
 
 export default About;
