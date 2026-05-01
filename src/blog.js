@@ -2,7 +2,7 @@ const blog = {
   name: "My Personal Blog",
   image: "https://via.placeholder.com/150",
   about: "Welcome to my blog where I share my thoughts and experiences.",
-  posts: [
+articles: [
     {
       id: 1,
       title: "My First Post",
