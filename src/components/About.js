@@ -1,4 +1,4 @@
-function About({ image, about }) {
+export default function About({ image = "default-logo.png", about }) {
   return (
     <aside>
       <img src={image} alt="blog logo" />
@@ -6,9 +6,3 @@ function About({ image, about }) {
     </aside>
   );
 }
-
-About.defaultProps = {
-  image: "default-logo.png",
-};
-
-export default About;

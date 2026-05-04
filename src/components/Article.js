@@ -1,6 +1,4 @@
-import React from "react";
-
-function Article({ title, date, preview }) {
+export default function Article({ title, date = "No Date Provided", preview }) {
   return (
     <article>
       <h3>{title}</h3>
@@ -9,5 +7,3 @@ function Article({ title, date, preview }) {
     </article>
   );
 }
-
-export default Article;

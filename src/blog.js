@@ -1,19 +1,17 @@
 const blog = {
-  name: "My Personal Blog",
-  image: "https://via.placeholder.com/150",
-  about: "Welcome to my blog where I share my thoughts and experiences.",
+  name: "My Blog",
+  image: "blog-logo.png",
+  about: "This is a blog about tech and coding.",
   articles: [
     {
-      id: 1,
-      title: "My First Post",
-      date: "2026-04-20",
-      preview: "This is the preview of my first post..."
+      title: "First Post",
+      date: "2024-01-01",
+      preview: "This is the first post preview"
     },
     {
-      id: 2,
-      title: "Learning React",
-      date: "2026-04-21",
-      preview: "React is fun once you understand components..."
+      title: "Second Post",
+      date: "2024-01-02",
+      preview: "This is the second post preview"
     }
   ]
 };

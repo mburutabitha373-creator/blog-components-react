@@ -1,11 +1,9 @@
-import React from "react";
 import blog from "../blog";
-
 import Header from "./Header";
 import About from "./About";
 import ArticleList from "./ArticleList";
 
-function App() {
+export default function App() {
   return (
     <div>
       <Header name={blog.name} />
@@ -14,6 +12,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
-// trigger rebuild
